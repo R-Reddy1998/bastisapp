@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T13:25:18 IST" name="Default suite" finished-at="2024-09-02T13:25:18 IST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T13:25:18 IST" name="Default test" finished-at="2024-09-02T13:25:18 IST" duration-ms="74">
+      <class name="bastisapp.tests.BurgersTest">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:17 IST" name="intialize" finished-at="2024-09-02T13:25:18 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:18 IST" name="launchBrowser" finished-at="2024-09-02T13:25:18 IST" duration-ms="33" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bastisapp.tests.BurgersTest.verifyBurgerPage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\laxmi\OneDrive\Desktop\Bastisapp\bastisapp\src\test\resources\drivers\msedgedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\laxmi\OneDrive\Desktop\Bastisapp\bastisapp\src\test\resources\drivers\msedgedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at bastisapp.base.BaseTest.launchBrowser(BaseTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:18 IST" name="launchApplication" finished-at="2024-09-02T13:25:18 IST" depends-on-methods="bastisapp.base.BaseTest.launchBrowser" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyBurgerPage()[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:18 IST" name="verifyBurgerPage" finished-at="2024-09-02T13:25:18 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\laxmi\OneDrive\Desktop\Bastisapp\bastisapp\src\test\resources\drivers\msedgedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\laxmi\OneDrive\Desktop\Bastisapp\bastisapp\src\test\resources\drivers\msedgedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+at bastisapp.base.BaseTest.launchBrowser(BaseTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBurgerPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:18 IST" name="closeBrowser" finished-at="2024-09-02T13:25:18 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bastisapp.tests.BurgersTest@1caa0244]" started-at="2024-09-02T13:25:18 IST" name="tearDown" finished-at="2024-09-02T13:25:18 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bastisapp.tests.BurgersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

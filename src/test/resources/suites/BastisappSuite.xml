@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Regression Suite">
+	<test name="Bastisapp Test">
+		<classes>
+			<class name="bastisapp.base.BaseTest"></class>
+			<class name="bastisapp.tests.HomeTest"></class>
+			<class name="bastisapp.tests.BurgersTest"></class>
+			<class name="bastisapp.tests.HealthyTest"></class>
+			<class name="bastisapp.tests.KoreanTest"></class>
+			<class name="bastisapp.tests.PizzaTest"></class>
+			<class name="bastisapp.tests.SteakTest"></class>
+			<class name="bastisapp.tests.VegetarianTest"></class>	
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Bastisapp Test(failed)">
+    <classes>
+      <class name="bastisapp.tests.SteakTest">
+        <methods>
+          <include name="verifyBurgerPage"/>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.SteakTest -->
+      <class name="bastisapp.tests.PizzaTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyPizzaPage"/>
+        </methods>
+      </class> <!-- bastisapp.tests.PizzaTest -->
+      <class name="bastisapp.base.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.base.BaseTest -->
+      <class name="bastisapp.tests.KoreanTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="verifyKoreanPage"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.KoreanTest -->
+      <class name="bastisapp.tests.HealthyTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="verifyHealthyPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.HealthyTest -->
+      <class name="bastisapp.tests.BurgersTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="verifyBurgerPage"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.BurgersTest -->
+    </classes>
+  </test> <!-- Bastisapp Test(failed) -->
+</suite> <!-- Failed suite [UI Regression Suite] -->

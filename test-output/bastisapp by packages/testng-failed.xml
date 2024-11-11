@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [bastisapp by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="bastisapp.tests(failed)">
+    <classes>
+      <class name="bastisapp.tests.chineseTest">
+        <methods>
+          <include name="verifychinesepage"/>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.chineseTest -->
+      <class name="bastisapp.tests.pandaExpressTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="verifypandaexpresspage"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.pandaExpressTest -->
+      <class name="bastisapp.tests.SteakTest">
+        <methods>
+          <include name="verifyBurgerPage"/>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.SteakTest -->
+      <class name="bastisapp.tests.jollibeeTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyjollibeePage"/>
+        </methods>
+      </class> <!-- bastisapp.tests.jollibeeTest -->
+      <class name="bastisapp.tests.KoreanTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="verifyKoreanPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.KoreanTest -->
+      <class name="bastisapp.tests.HomeTest">
+        <methods>
+          <include name="verifyCopyMessage"/>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyMultiRestaurantImg"/>
+        </methods>
+      </class> <!-- bastisapp.tests.HomeTest -->
+      <class name="bastisapp.tests.mcdonaldsTest">
+        <methods>
+          <include name="verifyMcdonaldspage"/>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.mcdonaldsTest -->
+      <class name="bastisapp.tests.BurgersTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="verifyBurgerPage"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.BurgersTest -->
+      <class name="bastisapp.tests.VegetarianTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyVegetarianPage"/>
+        </methods>
+      </class> <!-- bastisapp.tests.VegetarianTest -->
+      <class name="bastisapp.tests.HealthyTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="verifyHealthyPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bastisapp.tests.HealthyTest -->
+      <class name="bastisapp.tests.ThaiTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="VerifyThaiPage"/>
+        </methods>
+      </class> <!-- bastisapp.tests.ThaiTest -->
+      <class name="bastisapp.tests.PizzaTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyPizzaPage"/>
+        </methods>
+      </class> <!-- bastisapp.tests.PizzaTest -->
+    </classes>
+  </test> <!-- bastisapp.tests(failed) -->
+</suite> <!-- Failed suite [bastisapp by packages] -->
